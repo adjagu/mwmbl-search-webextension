@@ -1,0 +1,30 @@
+{
+	"manifest_version": 2,
+	"name": "MWMBL search",
+	"short_name": "mwmbl",
+	"description": "Adds MWMBL search as a search engine.",
+	"version": "0.0.1",
+	"icons": {
+		"16": "icons/mwmbl.svg",
+		"64": "icons/mwmbl.svg",
+		"256": "icons/mwmbl.svg"
+	},
+	"chrome_settings_overrides": {
+		"search_provider": {
+			"name": "MWMBL",
+			"search_url": "https://mwmbl.org/?q={searchTerms}",
+			"is_default": true,
+			"encoding": "UTF-8",
+			"favicon_url": "https://raw.githubusercontent.com/mwmbl/front-end/master/assets/images/logo.svg",
+			"keyword": "@mwmbl"
+		}
+	},
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "mwmbl-search-webextension@adjagu",
+			"strict_min_version": "55.0"
+		}
+	},
+	"author": "adjagu",
+	"homepage_url": "https://github.com/adjagu/mwmbl-search-webextension"
+}
