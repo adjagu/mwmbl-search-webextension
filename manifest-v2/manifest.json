@@ -13,7 +13,7 @@
 	"chrome_settings_overrides": {
 		"search_provider": {
 			"encoding": "UTF-8",
-			"favicon_url": "https://raw.githubusercontent.com/AdJaGu/mwmbl-search-webextension/main/manifest-v2/icons/mwmbl.svg",
+			"favicon_url": "https://raw.githubusercontent.com/AdJaGu/mwmbl-search-webextension/main/manifest-v2/assets/icons/mwmbl.svg",
 			"keyword": "__MSG_searchProviderKeyword__",
 			"is_default": true,
 			"name": "__MSG_searchProviderName__",
