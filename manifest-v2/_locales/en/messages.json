@@ -1,0 +1,26 @@
+{
+	"webextensionName": {
+		"description": "Web-extension name.",
+		"message": "MWMBL search"
+	},
+	"webextensionShortName": {
+		"description": "Web-extension short name.",
+		"message": "MWMBL"
+	},
+	"webextensionAuthor": {
+		"description": "Web-extension author.",
+		"message": "adjagu"
+	},
+	"webextensionDescription": {
+		"description": "Web-extension description.",
+		"message": "Adds MWMBL search as a search engine."
+	},
+	"searchProviderKeyword": {
+		"description": "Search provider keyword.",
+		"message": "mwmbl"
+	},
+	"searchProviderName": {
+		"description": "Search provider name.",
+		"message": "MWMBL"
+	}
+}

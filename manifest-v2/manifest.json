@@ -1,30 +1,34 @@
 {
+	"default_locale": "en",
 	"manifest_version": 2,
-	"name": "MWMBL search",
-	"short_name": "mwmbl",
-	"description": "Adds MWMBL search as a search engine.",
-	"version": "0.0.1",
-	"icons": {
-		"16": "icons/mwmbl.svg",
-		"64": "icons/mwmbl.svg",
-		"256": "icons/mwmbl.svg"
+	"name": "__MSG_webextensionName__",
+	"short_name": "__MSG_webextensionShortName__",
+	"version": "0.0.2",
+	"author": "__MSG_webextensionAuthor__",
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "mwmbl-search-webextension@adjagu"
+		}
 	},
 	"chrome_settings_overrides": {
 		"search_provider": {
-			"name": "MWMBL",
-			"search_url": "https://mwmbl.org/?q={searchTerms}",
-			"is_default": true,
 			"encoding": "UTF-8",
-			"favicon_url": "https://raw.githubusercontent.com/mwmbl/front-end/master/assets/images/logo.svg",
-			"keyword": "@mwmbl"
+			"favicon_url": "https://raw.githubusercontent.com/AdJaGu/mwmbl-search-webextension/main/manifest-v2/icons/mwmbl.svg",
+			"keyword": "__MSG_searchProviderKeyword__",
+			"is_default": true,
+			"name": "__MSG_searchProviderName__",
+			"search_url": "https://mwmbl.org/?q={searchTerms}"
 		}
 	},
-	"browser_specific_settings": {
-		"gecko": {
-			"id": "mwmbl-search-webextension@adjagu",
-			"strict_min_version": "55.0"
-		}
-	},
-	"author": "adjagu",
-	"homepage_url": "https://github.com/adjagu/mwmbl-search-webextension"
+	"description": "__MSG_webextensionDescription__",
+	"homepage_url": "https://github.com/adjagu/mwmbl-search-webextension",
+	"icons": {
+		"16": "assets/icons/mwmbl.svg",
+		"32": "assets/icons/mwmbl.svg",
+		"48": "assets/icons/mwmbl.svg",
+		"64": "assets/icons/mwmbl.svg",
+		"96": "assets/icons/mwmbl.svg",
+		"128": "assets/icons/mwmbl.svg",
+		"256": "assets/icons/mwmbl.svg"
+	}
 }
