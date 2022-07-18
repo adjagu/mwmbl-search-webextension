@@ -3,7 +3,7 @@
 	"manifest_version": 2,
 	"name": "__MSG_webextensionName__",
 	"short_name": "__MSG_webextensionShortName__",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"author": "__MSG_webextensionAuthor__",
 	"browser_specific_settings": {
 		"gecko": {
