@@ -3,7 +3,7 @@
 	"manifest_version": 3,
 	"name": "__MSG_webextensionName__",
 	"short_name": "__MSG_webextensionShortName__",
-	"version": "0.0.2",
+	"version": "0.0.4",
 	"author": "__MSG_webextensionAuthor__",
 	"browser_specific_settings": {
 		"gecko": {
@@ -17,7 +17,8 @@
 			"keyword": "__MSG_searchProviderKeyword__",
 			"is_default": true,
 			"name": "__MSG_searchProviderName__",
-			"search_url": "https://mwmbl.org/?q={searchTerms}"
+			"search_url": "https://mwmbl.org/?q={searchTerms}",
+			"suggest_url": "https://api.mwmbl.org/search/complete?q={searchTerms}"
 		}
 	},
 	"description": "__MSG_webextensionDescription__",
